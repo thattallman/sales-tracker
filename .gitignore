@@ -1,0 +1,25 @@
+# --- Backend ---
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# --- Frontend ---
+front-end-rep/node_modules/
+front-end-rep/dist/
+front-end-rep/build/
+front-end-rep/.env
+
+# --- Common ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
